@@ -1,0 +1,38 @@
+servo_node:
+  ros__parameters:
+    command_in_type: "speed_units"
+    scale:
+      linear: 0.4
+      rotational: 0.8
+
+    cartesian_command_in_topic: /servo_node/delta_twist_cmds
+    joint_command_in_topic: /servo_node/delta_joint_cmds
+    command_out_topic: /panda_arm_controller/joint_trajectory
+    command_out_type: "trajectory_msgs/JointTrajectory"
+    status_topic: /servo_node/status
+
+    move_group_name: panda_arm
+    planning_frame: panda_link0
+    ee_frame_name: panda_link8
+    robot_link_command_frame: panda_link0
+
+    incoming_command_timeout: 0.3
+    publish_period: 0.01
+
+    check_collisions: true
+    collision_check_rate: 10.0
+
+    joint_limit_margin: 0.1
+
+    lower_singularity_threshold: 17.0
+    hard_stop_singularity_threshold: 30.0
+    leaving_singularity_threshold_multiplier: 2.0
+
+    publish_joint_positions: true
+    publish_joint_velocities: false
+    publish_joint_accelerations: false
+
+    use_gazebo: false
+    use_sim_time: false
+
+    smoothing_filter_plugin_name: "online_signal_smoothing::ButterworthFilterPlugin"
