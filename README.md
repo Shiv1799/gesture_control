@@ -18,7 +18,8 @@
 ## Demo
 
 <!-- Replace with your actual GIF/video after recording -->
-<video src="asset/robotic_arm_cv.mp4" controls width="600"></video>
+<video src="[asset/robotic_arm_cv.mp4](https://raw.githubusercontent.com/Shiv1799/gesture_control/main/asset/robotic_arm_cv.mp4
+)" controls width="600"></video>
 | Hand Open — Arm Tracks | Pinch — Gripper Closes | Fist — Emergency Stop |
 |:-----------------------:|:----------------------:|:---------------------:|
 | Move hand to steer arm  | Pinch thumb + index    | Close fist to freeze  |
