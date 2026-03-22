@@ -18,7 +18,7 @@
 ## Demo
 
 <!-- Replace with your actual GIF/video after recording -->
-<!-- ![Demo GIF](assets/robotic_arm_cv.mp4) -->
+[Demo GIF](assets/robotic_arm_cv.mp4)
 
 | Hand Open — Arm Tracks | Pinch — Gripper Closes | Fist — Emergency Stop |
 |:-----------------------:|:----------------------:|:---------------------:|
