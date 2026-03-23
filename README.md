@@ -17,7 +17,7 @@
 
 ## Demo
 
-![Demo](asset/teleop.gif)
+![Demo](asset/Teleop.gif)
 
 <!-- Replace with your actual GIF/video after recording -->
 
