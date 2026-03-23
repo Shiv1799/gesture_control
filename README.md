@@ -17,6 +17,8 @@
 
 ## Demo
 
+![Demo](asset/teleop.gif)
+
 <!-- Replace with your actual GIF/video after recording -->
 
 <video src="[asset/robotic_arm_cv.mp4](https://github.com/Shiv1799/gesture_control/blob/main/asset/robotic_arm_cv.mp4)" controls width="600"></video>
