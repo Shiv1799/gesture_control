@@ -19,7 +19,7 @@
 
 <!-- Replace with your actual GIF/video after recording -->
 
-<video src="[asset/robotic_arm_cv.mp4](https://raw.githubusercontent.com/Shiv1799/gesture_control/main/asset/robotic_arm_cv.mp4)" controls width="600"></video>
+<video src="[asset/robotic_arm_cv.mp4](https://github.com/Shiv1799/gesture_control/blob/main/asset/robotic_arm_cv.mp4)" controls width="600"></video>
 
 | Hand Open — Arm Tracks | Pinch — Gripper Closes | Fist — Emergency Stop |
 |:-----------------------:|:----------------------:|:---------------------:|
